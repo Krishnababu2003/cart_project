@@ -41,3 +41,64 @@
 body{
     background-color: black;
 }
+
+/* For Laptops/Small Desktops (max 1024px) */
+@media screen and (max-width: 1024px) {
+    .section {
+        grid-template-columns: auto auto auto;
+        margin-left: 0;
+    }
+
+    .cart .image {
+        margin-left: 50px;
+    }
+
+    .cart h2 {
+        margin-left:15px;
+    }
+}
+
+/* For Tablets (max 768px) */
+@media (max-width: 768px) {
+    .section {
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    
+    .cart .image {
+        width: 180px; 
+        height: 260px;
+        margin-left:90px
+    }
+
+    .cart h2 {
+        margin-left:20px;
+    }
+}
+
+/* For Small Mobile Phones (max 480px) */
+@media screen and (max-width: 480px) {
+    .section {
+        grid-template-columns: auto;
+        margin-top: 20px;
+    }
+
+    .header {
+        font-size: 14px;
+    }
+
+    .cart .image {
+        width: 250px; 
+        height: 350px;
+        margin-left:38px;
+    }
+
+    .cart h2{
+        margin-left:32px;
+    }
+
+    .ft {
+        margin-top: 30px;
+    }
+}
+
