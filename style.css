@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin:0%;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.header {
+    background-color: teal;
+    color: white;
+    font-size:20px;
+}
+.header h2{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.section{
+    margin-top:50px;
+    margin-left:70px;
+    display:grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    gap:30px;
+}
+.cart .image{
+    width:210px;
+    height:300px;
+    border-radius:50px;
+}
+.cart h2{
+    font-size:20px;
+    margin-right: 50px;
+    color:white;
+    
+}
+.ft{
+    margin-top:160px;
+     background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+body{
+    background-color: black;
+}
