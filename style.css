@@ -34,9 +34,10 @@
 }
 .ft{
     margin-top:160px;
-     background-color: white;
+    background-color: white;
     color: black;
     font-weight: bolder;
+    font-size:20px;
 }
 body{
     background-color: black;
@@ -56,6 +57,10 @@ body{
     .cart h2 {
         margin-left:15px;
     }
+
+    .ft {
+       font-size:20px; 
+    }
 }
 
 /* For Tablets (max 768px) */
@@ -73,6 +78,10 @@ body{
 
     .cart h2 {
         margin-left:20px;
+    }
+
+    .ft {
+       font-size:16px; 
     }
 }
 
@@ -99,7 +108,7 @@ body{
 
     .ft {
         margin-top: 30px;
-        font-size:14px;
+        font-size:11px;
     }
 }
 
