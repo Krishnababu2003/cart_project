@@ -76,7 +76,7 @@ body{
     }
 }
 
-/* For Mobile Phones (max 480px) */
+/* For Small Mobile Phones (max 480px) */
 @media screen and (max-width: 480px) {
     .section {
         grid-template-columns: auto;
@@ -90,7 +90,7 @@ body{
     .cart .image {
         width: 250px; 
         height: 350px;
-        margin-left:60px;
+        margin-left:63px;
     }
 
     .cart h2{
@@ -99,6 +99,7 @@ body{
 
     .ft {
         margin-top: 30px;
+        font-size:14px;
     }
 }
 
